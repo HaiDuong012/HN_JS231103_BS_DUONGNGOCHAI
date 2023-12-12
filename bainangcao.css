@@ -1,0 +1,95 @@
+/* css giao dien */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 800px;
+  border: 1px solid;
+}
+.select1 {
+  text-align: left;
+  font-size: 36px;
+}
+.card-pay img {
+  height: 100px;
+  width: 100px;
+}
+.title {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.input {
+  width: 400px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid rgb(143, 143, 235);
+}
+.input2 {
+  width: 178px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid rgb(148, 148, 226);
+}
+.number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 46px;
+  padding: 0px;
+}
+.number1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: -10px;
+}
+.card-number {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+  gap: 10px;
+}
+.inputcard {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -145px;
+  margin: 20px;
+  padding-top: 8px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  align-items: center;
+  background-color: rgb(63, 63, 230);
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.inputcard:hover {
+  background-color: aqua;
+}
+.inputcard:focus {
+  background-color: antiquewhite;
+}
+.inputcard:active {
+  background-color: azure;
+}
+
+/*css danh sach card */
+.table-card {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}

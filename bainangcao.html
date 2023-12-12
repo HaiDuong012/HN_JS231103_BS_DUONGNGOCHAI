@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bainangcao.css" />
+  </head>
+  <body>
+    <div class="container2">
+      <div>
+        <p class="select1">Select card</p>
+        <div class="card-pay">
+          <img src="https://s.net.vn/o27D" alt="Visa Pay" />
+          <img src="https://s.net.vn/o27D" alt="Visa Pay" />
+          <img src="https://s.net.vn/o27D" alt="Visa Pay" />
+          <img src="https://s.net.vn/o27D" alt="Visa Pay" />
+        </div>
+        <div class="card-number">
+          <p class="title">Card Number</p>
+          <input class="input" id="cardNumber" type="text" />
+        </div>
+        <div class="number">
+          <div class="number1">
+            <p class="title">Expriry Date</p>
+            <br />
+            <input class="input2" id="expiryDate" type="date" />
+          </div>
+          <div class="number1">
+            <p class="title">CVC/CVV</p>
+            <br />
+            <input class="input2" id="cvv" type="password" />
+          </div>
+        </div>
+      </div>
+      <button class="inputcard" id="saveSubmit">Save</button>
+    </div><br>
+    <!--Danh sach card  -->
+
+    <table class="table-card" border="1">
+        
+        <thead>
+          <caption>
+            <h2>Danh sách Card</h2>
+          </caption>
+          <tr>
+            <th>STT</th>
+            <th>Card image</th>
+            <th>Card Number</th>
+
+            <th>Expiry Date</th>
+            <th>CVV</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="tbody1">
+         
+        </tbody>
+      </table>  
+        </tbody>
+
+    <script src="./bainangcao.js"></script>
+  </body>
+</html>
